@@ -9,6 +9,8 @@ export default {
       },
 	  fontFamily: {
         'plus-jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
+		plusJakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
+		manrope: ['Manrope', 'sans-serif'],
       },
   		borderRadius: {
   			lg: 'var(--radius)',
