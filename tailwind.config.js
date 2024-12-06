@@ -4,12 +4,14 @@ export default {
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
   	extend: {
-  		backgroundImage: {
-  			'zortus-gradient': 'linear-gradient(90deg, #2E6440 0%, #CEB019 50%, #DF6C25 75%, #267CE5 100%)'
-  		},
-  		fontFamily: {
-  			'plus-jakarta': ['Plus Jakarta Sans"', 'sans-serif']
-  		},
+		backgroundImage: {
+        'zortus-gradient': 'linear-gradient(90deg, #2E6440 0%, #CEB019 50%, #DF6C25 75%, #267CE5 100%)',
+      },
+	  fontFamily: {
+        'plus-jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
+		plusJakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
+		manrope: ['Manrope', 'sans-serif'],
+      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
