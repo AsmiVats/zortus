@@ -1,3 +1,4 @@
+import { Button } from "../ui/button";
 import ServiceCard from "./ServiceCard";
 
 function Services() {
@@ -26,6 +27,7 @@ function Services() {
       <ServiceCard className="w-[1044px] bg-[#E5DBEB]"/>
       <ServiceCard className="w-[1102px] bg-[#D2E8C8]"/>
       <ServiceCard className="w-[1160px] bg-[#DCE4EA]"/>
+      <Button className="rounded-full p-6 text-sm">View All Case Studies</Button>
     </div>
   );
 }
