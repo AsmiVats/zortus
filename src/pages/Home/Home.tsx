@@ -1,15 +1,22 @@
 import About from '@/components/About/About'
 import Details from '@/components/Details/Details'
+import { Faq } from '@/components/FAQ/Faq'
+import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import Services from '@/components/Services/Services'
 
 function Home() {
   return (
-    <div>
+    <div className='p-2'>
       <Header/>
       <Details/>
       <Services/>
-      <About/>
+      <div className='bg-[#FAFAFA]'>
+         <About/>
+      <Faq/>
+      <Footer/>
+      </div>
+     
       </div>
   )
 }

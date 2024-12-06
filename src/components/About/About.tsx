@@ -35,7 +35,7 @@ const aboutUs = [
 
 export default function About() {
   return (
-    <div className="w-full max-w-7xl mx-auto p-6 font-plus-jakarta bg-[#FAFAFA]">
+    <div className="w-full max-w-7xl mx-auto my-4 p-6 font-plus-jakarta bg-[#FAFAFA]">
       
   
       <Carousel className="w-full ">
@@ -55,14 +55,14 @@ export default function About() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <div className="flex items-center justify-between mt-8">
+        <div className="flex items-center justify-between mt-4">
           <h2 className="text-[40px] font-[700] p-3">Why Choose Zortus?</h2>
-          <div className="flex bottom-4 right-6 absolute gap-1">
+          <div className="flex bottom-4 right-6 absolute gap-1 p-3">
             <CarouselPrevious className="h-10 w-10 bg-transparent rounded-full border-none">
-              <HiArrowLeft className="h-4 w-4 bg-transparent" />
+              <HiArrowLeft className="h-10 w-10 bg-transparent" />
             </CarouselPrevious>
             <CarouselNext className="h-10 w-10 bg-transparent rounded-full border-none">
-              <HiArrowRight className="h-4 w-4" />
+              <HiArrowRight className="h-10 w-10" />
             </CarouselNext>
           </div>
         </div>

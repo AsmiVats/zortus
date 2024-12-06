@@ -4,12 +4,12 @@ export default {
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
   	extend: {
-		backgroundImage: {
-        'zortus-gradient': 'linear-gradient(90deg, #2E6440 0%, #CEB019 50%, #DF6C25 75%, #267CE5 100%)',
-      },
-	  fontFamily: {
-        'plus-jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
-      },
+  		backgroundImage: {
+  			'zortus-gradient': 'linear-gradient(90deg, #2E6440 0%, #CEB019 50%, #DF6C25 75%, #267CE5 100%)'
+  		},
+  		fontFamily: {
+  			'plus-jakarta': ['Plus Jakarta Sans"', 'sans-serif']
+  		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -56,26 +56,48 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			},
-			opacities: {
-            100: "1",
-            80: ".80",
-            60: ".60",
-            40: ".40",
-            20: ".20",
-            10: ".10",
-            5: ".05",
-        },
-        sizes: {
-            1: "0.25rem",
-            2: "0.5rem",
-            4: "1rem",
-            6: "1.5rem",
-            8: "2rem",
-            16: "4rem",
-            20: "5rem",
-            24: "6rem",
-            32: "8rem",
-        }
+  			opacities: {
+  				'5': '.05',
+  				'10': '.10',
+  				'20': '.20',
+  				'40': '.40',
+  				'60': '.60',
+  				'80': '.80',
+  				'100': '1'
+  			},
+  			sizes: {
+  				'1': '0.25rem',
+  				'2': '0.5rem',
+  				'4': '1rem',
+  				'6': '1.5rem',
+  				'8': '2rem',
+  				'16': '4rem',
+  				'20': '5rem',
+  				'24': '6rem',
+  				'32': '8rem'
+  			}
+  		},
+  		keyframes: {
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			}
+  		},
+  		animation: {
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
   		}
   	}
   },
