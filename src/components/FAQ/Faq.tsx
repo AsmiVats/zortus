@@ -8,7 +8,7 @@ import { Button } from "../ui/button"
   
   export function Faq() {
     return (
-        <div className=" w-full max-w-7xl font-plus-jakarta flex justify-center items-center m-auto rounded-2xl bg-white p-6">
+        <div className=" w-full max-w-7xl font-plus-jakarta flex justify-center items-center mx-auto my-3 rounded-2xl bg-white p-6">
 
             <div className=" w-2/3 m-auto ">
                 <h1 className="font-[600] text-[48px] my-2">
