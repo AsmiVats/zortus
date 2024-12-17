@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
             </a>
           </div>
         </div>
-        <a href="#" className="hover:text-black">Contact</a>
+        <a href="/contact" className="hover:text-black">Contact</a>
       </div>
       <div className="flex items-center space-x-4">
         <button className="px-8 py-4 text-sm font-manrope font-bold bg-white text-gray-900 border-2 border-black rounded-full hover:bg-gray-100">
