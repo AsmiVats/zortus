@@ -1,4 +1,3 @@
-import React from "react";
 import { FaPlusCircle } from "react-icons/fa";
 import "video-react/dist/video-react.css";
 import { Player } from "video-react";
