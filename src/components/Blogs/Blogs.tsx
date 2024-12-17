@@ -6,7 +6,7 @@ export default function BlogSection() {
   return (
     <div className="min-h-screen p-6 bg-transparent font-plus-jakarta">
       <div className="container mx-auto px-4 py-12 md:py-24">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-24 mb-16">
+        <div className="grid gap-12 lg:grid-cols-2 lg:gap-20 mb-16">
           <h1 className="text-[48px] font-[600] tracking-tight sm:text-5xl xl:text-6xl/none">
             Welcome to the ZORTUS Blog, where innovation in education meets insightful discussions.
           </h1>
@@ -58,9 +58,9 @@ function BlogCard({ color, title, description }: BlogCardProps) {
       </div>
         
         <h2 className="text-xl font-semibold">{title}</h2>
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
         <p className="text-muted-foreground">{description}</p>
-        <Button variant="ghost" className="p-0 h-auto hover:bg-transparent" aria-label="Read more">
+        <Button variant="ghost" size={'lg'} className="p-0 h-auto hover:bg-transparent" aria-label="Read more">
           <ArrowRight className="h-5 w-5" />
         </Button>
         </div>
