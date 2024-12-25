@@ -8,7 +8,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Services() {
   useEffect(() => {
-    // GSAP animation for the Service Cards
     const cards = document.querySelectorAll(".service-card");
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -44,10 +43,10 @@ function Services() {
       </div>
 
       {/* Add service cards with the animation */}
-      <ServiceCard className="service-card w-[986px] bg-[#F4F2EF]" />
-      <ServiceCard className="service-card w-[1044px] bg-[#E5DBEB]" />
-      <ServiceCard className="service-card w-[1102px] bg-[#D2E8C8]" />
-      <ServiceCard className="service-card w-[1160px] bg-[#DCE4EA]" />
+      <ServiceCard className="service-card bg-[#F4F2EF]" />
+      <ServiceCard className="service-card bg-[#E5DBEB]" />
+      <ServiceCard className="service-card bg-[#D2E8C8]" />
+      <ServiceCard className="service-card bg-[#DCE4EA]" />
 
       <Button className="rounded-full p-6 text-sm">View All Case Studies</Button>
     </div>
