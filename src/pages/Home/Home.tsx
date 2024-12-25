@@ -13,7 +13,7 @@ function Home() {
       <Header/>
       <Details/>
       <Services/>
-      <div className='bg-[#FAFAFA]'>
+      <div className='bg-x[#FAFAFA]'>
          <About/>
       <Faq/>
       <BlogSection/>
