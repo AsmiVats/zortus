@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import {
@@ -39,7 +39,7 @@ const aboutUs: AboutItem[] = [
 ]
 
 export default function About() {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentIndex] = useState(0)
 
   return (
     <motion.div 
@@ -50,7 +50,6 @@ export default function About() {
     >
       <Carousel 
         className="w-full"
-        onScrollEnd={(index) => setCurrentIndex(index)}
       >
         <CarouselContent>
           {aboutUs.map((item, index) => (

@@ -28,14 +28,12 @@ export function Faq() {
           More Questions
         </Button>
         <Button
-          variant="solid"
           className="rounded-full px-6 py-3 bg-blue-500 text-white font-semibold hover:bg-blue-600 transition duration-300"
         >
           Contact Us
         </Button>
       </div>
 
-      {/* FAQ Section */}
       <div className="max-w-4xl mx-auto">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
