@@ -76,7 +76,7 @@ function Header() {
             <FaArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
           <Link 
-            to="https://cp-algorithms.com/" 
+            to="" 
             className="inline-flex items-center text-base text-blue-600 hover:text-blue-700 font-medium hover:underline"
           >
             View Products
