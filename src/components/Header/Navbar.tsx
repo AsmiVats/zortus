@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: 'Home', link: "#" },
+    { name: 'Home', link: "/" },
     { name: 'Explore', link: '#' },
     { name: 'Demos', options: ['Option 1', 'Option 2'] },
     { name: 'Contact', link: '/contact' },
