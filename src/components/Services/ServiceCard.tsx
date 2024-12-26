@@ -5,50 +5,50 @@ import { Button } from "../ui/button";
 export type ContainerType = {
   className?: string;
 };
-const data =[
-  {
-    title:"Quizzes",
-    description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
-    features:[
-      "Awesome visual identities & logo(s)",
-      "Engaging user experiences",
-      "Streamlined financial tracking",
-    ],
-    images:""
-  },
-  {
-    title:"PPT Generation",
-    description:"With user-centered approach, the goals was to create an intuitive interface for effortless financial management while  incorporating gamification.",
-    features:[
-      "Awesome visual identities & logo(s)",
-      "Engaging user experiences",
-      "Streamlined financial tracking",
-    ],
-    images:""
-  },
+// const data =[
+//   {
+//     title:"Quizzes",
+//     description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
+//     features:[
+//       "Awesome visual identities & logo(s)",
+//       "Engaging user experiences",
+//       "Streamlined financial tracking",
+//     ],
+//     images:""
+//   },
+//   {
+//     title:"PPT Generation",
+//     description:"With user-centered approach, the goals was to create an intuitive interface for effortless financial management while  incorporating gamification.",
+//     features:[
+//       "Awesome visual identities & logo(s)",
+//       "Engaging user experiences",
+//       "Streamlined financial tracking",
+//     ],
+//     images:""
+//   },
 
-  {
-    title:"3D Simulation",
-    description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
-    features:[
-      "Awesome visual identities & logo(s)",
-      "Engaging user experiences",
-      "Streamlined financial tracking",
-    ],
-    images:""
-  },
-  {
-    title:"Document Converter",
-    description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
-    features:[
-      "Awesome visual identities & logo(s)",
-      "Engaging user experiences",
-      "Streamlined financial tracking",
-    ],
-    images:""
-  },
+//   {
+//     title:"3D Simulation",
+//     description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
+//     features:[
+//       "Awesome visual identities & logo(s)",
+//       "Engaging user experiences",
+//       "Streamlined financial tracking",
+//     ],
+//     images:""
+//   },
+//   {
+//     title:"Document Converter",
+//     description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
+//     features:[
+//       "Awesome visual identities & logo(s)",
+//       "Engaging user experiences",
+//       "Streamlined financial tracking",
+//     ],
+//     images:""
+//   },
 
-]
+// ]
 
 
 const ServiceCard: FunctionComponent<ContainerType> = ({ className = "" }) => {
