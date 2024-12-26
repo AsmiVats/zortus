@@ -5,6 +5,51 @@ import { Button } from "../ui/button";
 export type ContainerType = {
   className?: string;
 };
+const data =[
+  {
+    title:"Quizzes",
+    description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
+    features:[
+      "Awesome visual identities & logo(s)",
+      "Engaging user experiences",
+      "Streamlined financial tracking",
+    ],
+    images:""
+  },
+  {
+    title:"PPT Generation",
+    description:"With user-centered approach, the goals was to create an intuitive interface for effortless financial management while  incorporating gamification.",
+    features:[
+      "Awesome visual identities & logo(s)",
+      "Engaging user experiences",
+      "Streamlined financial tracking",
+    ],
+    images:""
+  },
+
+  {
+    title:"3D Simulation",
+    description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
+    features:[
+      "Awesome visual identities & logo(s)",
+      "Engaging user experiences",
+      "Streamlined financial tracking",
+    ],
+    images:""
+  },
+  {
+    title:"Document Converter",
+    description:" With a user-centered approach, the goal was to create an intuitive interface for effortless financial management while incorporating gamification.",
+    features:[
+      "Awesome visual identities & logo(s)",
+      "Engaging user experiences",
+      "Streamlined financial tracking",
+    ],
+    images:""
+  },
+
+]
+
 
 const ServiceCard: FunctionComponent<ContainerType> = ({ className = "" }) => {
   return (
@@ -43,9 +88,9 @@ const ServiceCard: FunctionComponent<ContainerType> = ({ className = "" }) => {
         </div>
       </div>
 
-      <footer className="mt-6 md:mt-8 text-center">
+      <footer className="mt-6 md:mt-8 text-left">
         <Button
-          className="px-3 sm:px-4 py-2 sm:py-3 md:px-6 md:py-3 text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
+          className="px-3 sm:px-4 py-2 sm:py-3 md:px-6 md:py-3 text-white  rounded-full shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
         >
           View Project →
         </Button>
