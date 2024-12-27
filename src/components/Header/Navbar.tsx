@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import zortusLogo from '../../assets/Zortus.svg';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const menuItems = [
     { name: 'Home', link: "/" },
@@ -67,8 +69,11 @@ const Navbar: React.FC = () => {
         <motion.button
           whileHover={{ scale: 1.05 }}
           className="px-6 py-2 text-sm font-manrope font-bold bg-white bg-opacity-50 text-gray-900 border-2 border-black rounded-full hover:bg-opacity-70 transition-all duration-200"
+          onClick={()=>{
+            navigate('/signin');
+          }}
         >
-          Get started
+          Login
         </motion.button>
         <motion.button
           whileHover={{ scale: 1.1 }}
