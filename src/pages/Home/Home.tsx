@@ -5,7 +5,7 @@ import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import Services from '@/components/Services/Services'
 import BlogSection from '@/components/Blogs/Blogs'
-
+import Card2 from '@/components/Services/Card'
 function Home() {
   return (
     <div className='p-2'>
@@ -18,6 +18,8 @@ function Home() {
       <Faq/>
       <BlogSection/>
       <Footer/>
+      <Card2 />
+      
       </div>
      
       </div>

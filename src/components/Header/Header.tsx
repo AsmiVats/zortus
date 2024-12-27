@@ -92,7 +92,7 @@ function Header() {
             {[1, 2, 3].map((index) => (
               <motion.img
                 key={index}
-                src={`/logo${index}.svg`}
+                src={`../assets/${index}.svg`}
                 alt={`Partner logo ${index}`}
                 className="h-8 md:h-10 w-auto grayscale hover:grayscale-0 transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
