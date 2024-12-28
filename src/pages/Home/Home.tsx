@@ -5,6 +5,7 @@ import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import BlogSection from '@/components/Blogs/Blogs'
 import Service from '@/components/Services/Service'
+import CTASection from '@/components/Common/CtaSection'
 function Home() {
   return (
     <div className='p-2'>
@@ -16,6 +17,7 @@ function Home() {
          <About/>
       <Faq/>
       <BlogSection/>
+      <CTASection/>
       <Footer/>     
       </div>
      
